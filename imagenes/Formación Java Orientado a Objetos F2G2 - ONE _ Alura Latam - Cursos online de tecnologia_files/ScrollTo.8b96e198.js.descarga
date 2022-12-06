@@ -1,0 +1,1 @@
+"use strict";$(".scrollTo").on("click",function(t){t.preventDefault();t=$(this).attr("href"),t=$(t).offset().top;$("html, body").animate({scrollTop:t-100},500)});

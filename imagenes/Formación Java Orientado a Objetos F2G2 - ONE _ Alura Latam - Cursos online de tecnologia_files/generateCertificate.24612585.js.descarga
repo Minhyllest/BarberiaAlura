@@ -1,0 +1,1 @@
+"use strict";$(".formacao_btn-certificado").on("click",function(){var i=$(this).data("guideid");$.post("/degree/generate/certificate",{id:i}).done(function(i){window.location=i}).fail(function(i){window.alert(i.responseText)})});
